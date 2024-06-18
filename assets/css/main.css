@@ -2854,6 +2854,11 @@ input, select, textarea {
 				background-color: #87c5a4;
 			}
 
+			.tiles article h3 {
+				font-size: 1.75em; /* aaron:調整色塊的標題文字大小 */
+				color: #f3efe8;  /* aaron:調整色塊的標題文字顏色 */
+			  }
+
 		@media screen and (max-width: 1280px) {
 
 			.tiles article {
