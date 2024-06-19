@@ -122,7 +122,7 @@
 									<header class="major">
 										<h2>關於綠建築</h2>
 									</header>
-									<p>相關訊息</p>
+									<p>環保、自然、健康、舒適</p>
 									<ul class="actions">
 										<li><a href="https://gb.tabc.org.tw/" target="_blank" class="button next">綠建築標章</a></li>
 									</ul>
@@ -135,7 +135,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form method="post" action="#"  onsubmit="return mailto()">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -154,6 +154,17 @@
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
+
+									<script>
+										function mailto() {
+											name = document.getElementsByName('name')[0].value; // 把使用者輸入的名稱拿出來用
+											email = document.getElementsByName('email')[0].value; // 把使用者輸入的email拿出來用
+											message = document.getElementsByName('message')[0].value.replaceAll('\n', '%0D%0A'); // 把使用者輸入的內容拿出來用
+											window.location.href = "mailto:xxxxxxxxxx@gmail.com?subject=我沒有問題&body=您好, 我是" + name + ":%0D%0A" + message;
+											return false;
+										}
+									</script>
+
 								</form>
 							</section>
 							<section class="split">
