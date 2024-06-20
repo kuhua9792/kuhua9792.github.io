@@ -3157,6 +3157,19 @@ input, select, textarea {
 				padding: 0 0.125em 0 0.375em;
 			}
 
+			strong.ok {
+				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+				background-color: #ffffff;
+				color: #242943;
+				display: inline-block;
+				line-height: 1.1em;
+				margin-right: 0.325em;
+				padding: 0 0.125em 0 0.375em;
+			}
+
 			#header .logo:hover strong {
 				background-color: #9bf1ff;
 			}
@@ -3486,7 +3499,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
@@ -3496,7 +3509,7 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #557985;
 		}
 
 		#banner.style2:after {
