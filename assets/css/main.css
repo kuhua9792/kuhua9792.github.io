@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #d3ab70;
+		background: #2a2f4a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2799,7 +2799,7 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
-				background-color: rgba(36, 41, 67, 0.25);
+				background-color: rgba(255, 255, 255, 0.25);
 				content: '';
 				display: block;
 				height: 100%;
@@ -2831,27 +2831,27 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #e2cc81;
+				background-color: #717177;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #b7dfa4;
+				background-color: #c7d8e4;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #e9b7b0;
+				background-color: #9b9cb3;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #eed3b9;
+				background-color: #717177;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #cbd5ec;
+				background-color: #717177;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #aad1bc;
+				background-color: #c9b9d1;
 			}
 
 			.tiles article h3 {
@@ -3509,7 +3509,7 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #557985;
+			background-color: #6fc3df;
 		}
 
 		#banner.style2:after {
@@ -3969,5 +3969,5 @@ input, select, textarea {
 			visibility: visible;
 		}
 		#two {
-			background-color: rgb(228, 200, 165);  /* aaron: 修改首頁下方區塊背景顏色 */
+			background-color: rgb(53, 49, 75);  /* aaron: 修改首頁下方區塊背景顏色 */
 		}
